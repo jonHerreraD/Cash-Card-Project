@@ -1,0 +1,158 @@
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+}
+
+#menu-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+}
+.mn-w-title h1{
+    flex: 1;
+    color: black;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+.mn-w-space{
+    flex: 10;
+   
+}
+.mn-w-tool-bar {
+    flex: 1;
+    text-align: right;
+    position: relative;
+    color: black;
+    font-size: 40px;
+    margin-right: 10px;
+}
+
+.mn-w-tool-bar button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.mn-w-tool-bar button:hover {
+    background-color: #0056b3;
+}
+
+#mn-w-tool-bar-options{
+    position: absolute;
+    top: 71px;
+    right: 0;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#mn-w-tool-bar-options ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+
+#mn-w-tool-bar-options li {
+    margin: 5px 0;
+}
+
+ .hidden {
+    display: none;
+}
+
+ .visible {
+    width: 244px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+#body-content{
+    display: flex;
+    flex-direction: left;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color:wheat;
+}
+
+#left{
+    display: flex;
+    flex-direction: column;
+    flex: 25;
+    padding-right: 100px;
+    padding-left: 10px;
+    
+}
+
+.b-c-title{
+    flex: 1;
+    padding-right: 50px;
+    font-size: 45px;
+    justify-content: center;
+    text-align: justify;
+}
+
+.b-c-text{
+    flex: 1;
+    padding-right: 50px;
+    font-size: 25px;
+    justify-content: center;
+    text-align: justify;
+}
+
+.image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.image img {
+    width: 95000px; /* Ajusta el porcentaje según necesites */
+    max-width: 600px; /* Ajusta el tamaño máximo según necesites */
+    height: auto;
+    object-fit: cover;
+    
+    
+}
+
+#right{
+    display: flex;
+    flex-direction: row;
+    flex: 10;
+    padding-right: 210px;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+.b-c-text button {
+    background-color:aliceblue;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.b-c-text button:hover {
+    background-color:#ccc;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+

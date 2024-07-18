@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Cards</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <section id="init">
+        <div id="menu-wrapper" class="mn-w">
+            <div class="mn-w-title">
+                <h1>Cash Cards</h1>
+            </div>
+            <div class="mn-w-space"></div>
+        </div>
+    </section>

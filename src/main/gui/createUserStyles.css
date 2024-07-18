@@ -1,0 +1,103 @@
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background-color:wheat;
+}
+
+#menu-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.title h1{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    font-size: 50px;
+    margin-bottom: 80px;
+}
+#up,.up{
+    height:fit-content;  
+}
+form{
+    display: flex;
+    flex: 1;
+    height: 20%;
+    flex-direction: column;
+    /* Centra horizontalmente */
+    align-items: center;
+}
+
+input{
+    display: flex;
+    flex: 1;
+    width: 500px;
+    padding: 5px;
+    font-size: 22px;
+}
+
+.down{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.lb{
+    
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    padding-top: 70px;
+    font-size: 35px;
+}
+
+.options{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+select{
+    width: 170px;
+}
+
+.sub{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.sub button {
+    width: 400px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.log-in-link{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.log-in-link p{
+    font-size: 18px;
+}
+
+.log-in-link a{
+   text-decoration: none;
+   color: red;
+}
+
+a {
+    text-decoration: none;
+}
